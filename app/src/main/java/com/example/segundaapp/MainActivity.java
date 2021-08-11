@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //Aquí efectuamos la acción al presionar el botón
                 Intent intent = new Intent(MainActivity.this, segundaActivity.class);
-
+// comentario
                 intent.putExtra("mensaje", msj.getText()+"");
                 startActivity(intent);
             }
